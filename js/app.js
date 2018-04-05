@@ -8,6 +8,7 @@ $(document).ready(function(){
     .mouseleave(function() {
         $('.ryu-still').show();
         $('.ryu-ready').hide();
+        
     })
     .mousedown(function(){
         playHadouken();
@@ -35,6 +36,7 @@ $(document).ready(function(){
 });
 
 });
+
     
     function playHadouken() {
         $('#hadouken-sound')[0].volume = 0.5;
